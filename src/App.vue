@@ -21,7 +21,7 @@ export default {
     PostForm
   },
   async mounted() {
-    this.fetchPosts(4);
+    this.fetchPosts();
   }
 }
 </script>
